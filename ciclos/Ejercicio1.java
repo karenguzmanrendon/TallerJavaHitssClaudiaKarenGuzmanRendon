@@ -5,6 +5,7 @@
  * 
  * Puede utilizar una sentencia for para realizar la multiplicacion y tener en cuenta los 
  * unarios, donde menos por menos es positivo
+ * 
 */
 
 package ciclos;

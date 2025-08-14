@@ -35,33 +35,34 @@ public class Ejercicio3 {
                         //Se suma el contador de notas igual a 1
                         notasUno++;
                     }
-                    //Se obtiene el promedio total: promedio = promedio + suma / cantidadNota (20)
-                    promedio += nota / cantidadNota;
-
                     //si nota es igual o mayor a 6
                     if(nota >= 6){
                         //Se suma el contador de cantidad de notas mayor o igual a 6
                         cantidadMayorSeis++;
                         //se hace sumatoria de sumaMayorSeis = sumaMayorSeis + nota
                         sumaMayorSeis += nota;
-                        //Se obtiene promedio de las notas mayores a seis donde promedioMayorSeis = SumaMayorSeis / cantidadMayorSeis
-                        promedioMayorSeis = sumaMayorSeis / cantidadMayorSeis;
                     } else {
                         //En caso contrario que las notas sean menores a 6 se contabiliza la cantidad de notas menores a seis
                         cantidadMenorSeis++;
                         //Se sealiza la suma total de las notas menores a seis
                         sumaMenorSeis += nota;
-                        //Se promedio las notas menores a seis donde el promedio = sumaMenorSeis / cantidadMenorSeis
-                        promedioMenorSeis = sumaMenorSeis / cantidadMenorSeis;
                     }
-
                 }else {
                     //Si la nota no entra en el rango solicitado
                     System.out.println("Error al ingresar nota");
                     return;
                 }
             }
+            //Se obtiene el promedio total: promedio = promedio + suma / cantidadNota (20)
+            promedio += nota / cantidadNota;
             
+            //Se obtiene promedio de las notas mayores a seis donde promedioMayorSeis = SumaMayorSeis / cantidadMayorSeis
+            promedioMayorSeis = sumaMayorSeis / cantidadMayorSeis;
+            
+            //Se promedio las notas menores a seis donde el promedio = sumaMenorSeis / cantidadMenorSeis
+            promedioMenorSeis = sumaMenorSeis / cantidadMenorSeis;
+
+            //imprimir los resultados
             System.out.println("Promedio final: " +promedio);
             System.out.println("Las personas que obtuvieron mas de 6 son: " +cantidadMayorSeis + " con un promedio de: " + promedioMayorSeis);
             System.out.println("Las personas que obtuvieron menos de 6 son: " +cantidadMenorSeis + " con un promedio de: " + promedioMenorSeis);
