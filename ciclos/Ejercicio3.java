@@ -52,7 +52,8 @@ public class Ejercicio3 {
                     System.out.println("Error al ingresar nota");
                     return;
                 }
-            }
+        }
+            
             //Se obtiene el promedio total: promedio = promedio + suma / cantidadNota (20)
             promedio += nota / cantidadNota;
             
@@ -61,13 +62,13 @@ public class Ejercicio3 {
             
             //Se promedio las notas menores a seis donde el promedio = sumaMenorSeis / cantidadMenorSeis
             promedioMenorSeis = sumaMenorSeis / cantidadMenorSeis;
-
+            
             //imprimir los resultados
             System.out.println("Promedio final: " +promedio);
             System.out.println("Las personas que obtuvieron mas de 6 son: " +cantidadMayorSeis + " con un promedio de: " + promedioMayorSeis);
             System.out.println("Las personas que obtuvieron menos de 6 son: " +cantidadMenorSeis + " con un promedio de: " + promedioMenorSeis);
             System.out.println("Los que obtuvieron 1 son: " +notasUno);
             
-        entrada.close();
+            entrada.close();
     }
 }
