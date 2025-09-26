@@ -1,0 +1,9 @@
+Reporte de productos por nombre
+-------------------------------------------------------------------------------
+|Bicicleta       | producto {codigo: P006, nombre: Bicicleta, categoria: Senderismo, stock: 2} |
+ |Camiseta        | producto {codigo: P001, nombre: Camiseta, categoria: Futbol, stock: 5} |
+ |Gorra           | producto {codigo: P005, nombre: Gorra, categoria: Tenis, stock: 7} |
+ |Short           | producto {codigo: P003, nombre: Short, categoria: Balonceso, stock: 4} |
+ |Sudadera        | producto {codigo: P004, nombre: Sudadera, categoria: Ciclismo, stock: 5} |
+ |Tenis           | producto {codigo: P002, nombre: Tenis, categoria: Running, stock: 6} |
+ -------------------------------------------------------------------------------

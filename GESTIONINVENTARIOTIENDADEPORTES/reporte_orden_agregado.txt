@@ -1,0 +1,9 @@
+Reporte de productos por orden de agregado
+------------------------------------------------------------------------------
+|P001            | producto {codigo: P001, nombre: Camiseta, categoria: Futbol, stock: 5} |
+ |P006            | producto {codigo: P006, nombre: Bicicleta, categoria: Senderismo, stock: 2} |
+ |P002            | producto {codigo: P002, nombre: Tenis, categoria: Running, stock: 6} |
+ |P005            | producto {codigo: P005, nombre: Gorra, categoria: Tenis, stock: 7} |
+ |P003            | producto {codigo: P003, nombre: Short, categoria: Balonceso, stock: 4} |
+ |P004            | producto {codigo: P004, nombre: Sudadera, categoria: Ciclismo, stock: 5} |
+ ------------------------------------------------------------------------------
